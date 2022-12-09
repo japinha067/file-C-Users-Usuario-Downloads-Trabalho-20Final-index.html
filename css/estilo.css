@@ -1,0 +1,173 @@
+.container1{
+	height: 100%;
+	width: 100%;
+	background-color: #7C1515;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.topo1{
+	height: 1.8vh;
+	width: 25%;
+	margin-top: 20px;
+	margin-left: 18px;
+}
+.esp{
+	height: 2vh;
+	width: 40%;
+	margin-top: 6px;
+}
+.topo2{
+	height: 4vh;
+	width: 8%;     	
+	margin-top: 6px;
+	margin-left: 35px;
+}
+.banner{
+	height: 40vh;
+	width: 78%;
+	margin-top: 15%;
+	margin: 0 auto;
+}
+.container2{
+	width: 70%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.time{
+	height: 28vh;
+	width: 40%;
+	margin-top: 9.9%;
+	margin-left: 45px;
+}
+.branco{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 30%;
+	height: auto;
+}
+.sobre{
+	background-color: rgb(211,211,211);
+	height: 50vh;
+	width: 90%;
+	margin-top: 129px;
+	color: white;
+	font-family: arial;
+	font-size: 30px;
+}
+.extra{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	height: 7vh;
+	width: 14%;
+	margin-top: 100px;
+	color: white;
+	background-color: #7C1515;
+}
+.extra2{
+	background-color: #7C1515;
+	height: 7vh;
+	width: 14%;
+	margin-top: 100px;
+	color: white;
+	margin-left: 5%;
+}
+.extra3{
+	background-color:#7C1515;
+	height: 7vh;
+	width: 14%;
+	margin-top: 100px;
+	color: white;
+}
+.wordcup{
+	margin-left: 20px;
+	height: 10vh;
+	width: 30%; 
+}
+.fifa{
+	height: 5vh;
+	width: 60%; 
+	margin-top: 15px;
+	margin-left: 85px;
+}
+.adidas{
+	height: 7vh;
+	width: 70%; 
+	margin-left: 30px;
+}
+.grupod{
+	margin-bottom: 50px;
+	margin-top: 50px;
+	width: 100%;
+	height: 100%;
+}
+.frança{
+	width: 100%;
+	height: 100%;
+}
+.australia{
+	width: 100%;
+	height: 100%;
+}
+.dinamarca{
+	margin-top: 160px;
+	width: 100%;
+	height: 100%;
+}
+.tunisia{
+	margin-top: 160px;
+	width: 100%;
+	height: 100%;
+}
+h2{
+	color: white;
+}
+h4{
+	color: white;
+	text-align: justify;
+}
+.tabela{
+	height: 100%;
+	width: 100%;
+}
+.brasil{
+	height: 100%;
+	width: 100%;
+}
+.alemanha{
+	height: 100%;
+	width: 100%;
+
+}
+.italia{
+	height: 100%;
+	width: 100%;
+	margin-left: 40%;
+}
+.container3{
+	img max-width: 100%;
+	margin-top: 20%;
+}
+
+@media(max-width:760px){
+	.branco{
+		display: none;
+	}
+	.esp{
+		width: 37%;
+	}
+	.topo2{
+		height: 4vh;
+		width: 5%;
+	}
+	.conteiner2{
+		margin-left: 70%;
+	}
+}
+body{
+	background-color:#7C1515 ;
+}
